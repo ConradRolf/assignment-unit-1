@@ -1,11 +1,30 @@
 /* Give your page a fun background color */
-
+body{
+    background-color: thistle;
+}
 /* Make the header and footer a different color from the background */
-
+.header{
+    background-color: violet;
+    text-align: center;
+    text-decoration: darkred;
+    text-shadow: darkgreen;
+    text-decoration-style: wavy;
+}
+.footer{
+    background-color: darkmagenta;
+}
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
-
+p{
+color: cornflowerblue;
+text-emphasis: Not all who wander are lost;
+}
 /* Put a border around your image */
-
+img{
+    border: springgreen;
+}
 /* Change the font-family of your list */
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
