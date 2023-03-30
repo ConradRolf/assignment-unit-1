@@ -1,30 +1,50 @@
 /* Give your page a fun background color */
 body{
     background-color: thistle;
+    margin: 15% 20%;
 }
 /* Make the header and footer a different color from the background */
 .header{
-    background-color: violet;
-    text-align: center;
-    text-decoration: darkred;
-    text-shadow: darkgreen;
-    text-decoration-style: wavy;
+    background-color: rgb(165, 99, 165);
+    background-position: center;
+    font-size: 90%;
+    text-align:center;
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    margin: 12px;
 }
 .footer{
-    background-color: darkmagenta;
+    background-color: rgb(103, 53, 103);
+    background-position: center;
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    margin: 12px;
 }
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
 p{
-color: cornflowerblue;
-text-emphasis: Not all who wander are lost;
+    color: rgb(142, 185, 191);
+    text-emphasis: Not all who wander are lost;
+    text-align: center;
 }
 /* Put a border around your image */
-img{
-    border: springgreen;
+.picture img{
+    border: 20px solid rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /* Change the font-family of your list */
-ul{
+.list{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    margin: 12px;
 }
