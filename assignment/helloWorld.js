@@ -1,0 +1,1 @@
+console.log('The meaning of life, the universe, and everything, is 42')
